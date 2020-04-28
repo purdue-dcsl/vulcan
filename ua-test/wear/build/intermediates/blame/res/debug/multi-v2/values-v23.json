@@ -1,0 +1,58 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ebarsallo/Desktop/ryloth/ua-test/wear/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/home/ebarsallo/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/f5018dc791a64c2e13e292885f9537af/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "56",
+                        "startColumns": "4",
+                        "startOffsets": "3741",
+                        "endLines": "58",
+                        "endColumns": "12",
+                        "endOffsets": "3886"
+                    }
+                },
+                {
+                    "source": "/home/ebarsallo/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/0fe16a73c688f052dccb26eed772b24b/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2618,2842,2957,3064,3177",
+                        "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
+                        "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2613,2837,2952,3059,3172,3402"
+                    }
+                },
+                {
+                    "source": "/home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-wearable-2.4.0.aar/94d46378374cf6ec0f9eb85e945f308c/res/values-v23/values.xml",
+                    "from": {
+                        "startLines": "4,8,12,20,23",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "211,373,537,938,1079",
+                        "endLines": "7,11,19,22,24",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "372,536,937,1078,1178"
+                    },
+                    "to": {
+                        "startLines": "48,52,59,67,70",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "3407,3573,3891,4296,4441",
+                        "endLines": "51,55,66,69,71",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "3568,3736,4291,4436,4540"
+                    }
+                }
+            ]
+        }
+    ]
+}

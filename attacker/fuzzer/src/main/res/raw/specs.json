@@ -1,0 +1,2853 @@
+{
+    "action": [
+        {
+            "action_name": "ACTION_MANAGE_PACKAGE_STORAGE", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MANAGE_PACKAGE_STORAGE", 
+            "mime_type": "", 
+            "obs": "Indicates low memory condition notification acknowledged by user and package management should be started. ", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_BATTERY_CHANGED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.BATTERY_CHANGED", 
+            "mime_type": "", 
+            "obs": "", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_APP_ERROR", 
+            "activity": true, 
+            "api_level": 14, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.APP_ERROR", 
+            "mime_type": "", 
+            "obs": "The user pressed the \"Report\" button in the crash/ANR dialog. This intent is delivered to the package which installed the application, usually Google Play.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SEARCH", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.SEARCH", 
+            "mime_type": "", 
+            "obs": "Perform a search.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_NEW_OUTGOING_CALL", 
+            "activity": false, 
+            "api_level": 1, 
+            "api_level_deprecated": 29, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.NEW_OUTGOING_CALL", 
+            "mime_type": "", 
+            "obs": "An outgoing call is about to be placed.", 
+            "permission": [
+                "Manifest.permission.PROCESS_OUTGOING_CALLS"
+            ], 
+            "permission_level": 1.0, 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_DIAL", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.DIAL", 
+            "mime_type": "", 
+            "obs": "Dial a number as specified by the data. This shows a UI with the number being dialed, allowing the user to explicitly initiate the call.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_TIME_TICK", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.TIME_TICK", 
+            "mime_type": "", 
+            "obs": "The current time has changed. Sent every minute. You cannot receive this through components declared in manifests, only by explicitly registering for it with Context#registerReceiver(BroadcastReceiver, IntentFilter).", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_NEEDS_VERIFICATION", 
+            "activity": false, 
+            "api_level": 14, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_NEEDS_VERIFICATION", 
+            "mime_type": "", 
+            "obs": "Sent to the system package verifier when a package needs to be verified. The data contains the package URI.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_INPUT_METHOD_CHANGED", 
+            "activity": false, 
+            "api_level": 3, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.INPUT_METHOD_CHANGED", 
+            "mime_type": "", 
+            "obs": "An input method has been changed.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_AIRPLANE_MODE_CHANGED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.AIRPLANE_MODE", 
+            "mime_type": "", 
+            "obs": "", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_UMS_DISCONNECTED", 
+            "activity": false, 
+            "api_level": 1, 
+            "api_level_deprecated": 15, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.UMS_DISCONNECTED", 
+            "mime_type": "", 
+            "obs": "The device has exited USB Mass Storage mode. This is used mainly for the USB Settings panel. Apps should listen for ACTION_MEDIA_MOUNTED and ACTION_MEDIA_UNMOUNTED broadcasts to be notified when the SD card file system is mounted or unmounted", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SEND", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "CATEGORY_TYPED_OPENABLE ", 
+            "constant_value": "android.intent.action.SEND", 
+            "mime_type": "TRUE - MIME type of data being sent", 
+            "obs": "Deliver some data to someone else. Who the data is being delivered to is not specified; it is up to the receiver of this action to ask the user where the data should be sent.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_CONFIGURATION_CHANGED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.CONFIGURATION_CHANGED", 
+            "mime_type": "", 
+            "obs": "The current device Configuration (orientation, locale, etc) has changed. When such a change happens, the UIs (view hierarchy) will need to be rebuilt based on this new information; for the most part, applications don't need to worry about this, because the system will take care of stopping and restarting the application to make sure it sees the new changes. Some system code that can not be restarted will need to watch for this action and handle it appropriately.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_GET_RESTRICTION_ENTRIES", 
+            "activity": false, 
+            "api_level": 18, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.GET_RESTRICTION_ENTRIES", 
+            "mime_type": "", 
+            "obs": "Broadcast to a specific application to query any supported restrictions to impose on restricted users.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_EDIT", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.EDIT", 
+            "mime_type": "", 
+            "obs": "Provide explicit editable access to the given data.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_VERIFIED", 
+            "activity": false, 
+            "api_level": 17, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_VERIFIED", 
+            "mime_type": "", 
+            "obs": "Sent to the system package verifier when a package is verified. The data contains the package URI.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_CLOSE_SYSTEM_DIALOGS", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.CLOSE_SYSTEM_DIALOGS", 
+            "mime_type": "", 
+            "obs": "This is broadcast when a user action should request a temporary system dialog to dismiss", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_UNMOUNTABLE", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_UNMOUNTABLE", 
+            "mime_type": "", 
+            "obs": "External media is present but cannot be mounted. The path to the mount point for the unmountable media is contained in the Intent.mData field", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_DREAMING_STOPPED", 
+            "activity": false, 
+            "api_level": 17, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.DREAMING_STOPPED", 
+            "mime_type": "", 
+            "obs": "Sent after the system stops dreaming.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_SCANNER_SCAN_FILE", 
+            "activity": false, 
+            "api_level": 1, 
+            "api_level_deprecated": 29, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_SCANNER_SCAN_FILE", 
+            "mime_type": "", 
+            "obs": "Request the media scanner to scan a file and add it to the media database.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SYNC", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.SYNC", 
+            "mime_type": "", 
+            "obs": "Perform a data synchronization.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MY_PACKAGE_REPLACED", 
+            "activity": false, 
+            "api_level": 12, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MY_PACKAGE_REPLACED", 
+            "mime_type": "", 
+            "obs": "A new version of your application has been installed over an existing one. This is only sent to the application that was replaced. It does not contain any additional data; to receive it, just use an intent filter for this action. This is a protected intent that can only be sent by the system.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_DEVICE_STORAGE_OK", 
+            "activity": false, 
+            "api_level": 1, 
+            "api_level_deprecated": 26, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.DEVICE_STORAGE_OK", 
+            "mime_type": "", 
+            "obs": "If your app targets Build.VERSION_CODES.O or above, this broadcast will no longer be delivered to any BroadcastReceiverdefined in your manifest. Instead, apps are strongly encouraged to use the improved Context#getCacheDir() behavior so the system can automatically free up storage when needed.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SHOW_APP_INFO", 
+            "activity": true, 
+            "api_level": 24, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.SHOW_APP_INFO", 
+            "mime_type": "", 
+            "obs": "Launch an activity showing the app information. For applications which install other applications (such as app stores), it is recommended to handle this action for providing the app information to the user.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_CHANGED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_CHANGED", 
+            "mime_type": "", 
+            "obs": "An existing application package has been changed (for example, a component has been enabled or disabled). The data contains the name of the package.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_INSTALL_FAILURE", 
+            "activity": true, 
+            "api_level": 27, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.INSTALL_FAILURE", 
+            "mime_type": "", 
+            "obs": "Activity to handle split installation failures.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_CREATE_DOCUMENT", 
+            "activity": true, 
+            "api_level": 19, 
+            "broadcast": false, 
+            "category": "CATEGORY_OPENABLE", 
+            "constant_value": "android.intent.action.CREATE_DOCUMENT", 
+            "mime_type": "TRUE - document to be created", 
+            "obs": "", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_REMOVED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_REMOVED", 
+            "mime_type": "", 
+            "obs": "External media has been removed. The path to the mount point for the removed media is contained in the Intent.mData field", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_POWER_DISCONNECTED", 
+            "activity": false, 
+            "api_level": 4, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.ACTION_POWER_DISCONNECTED", 
+            "mime_type": "", 
+            "obs": "External power has been removed from the device. This is intended for applications that wish to register specifically to this notification. Unlike ACTION_BATTERY_CHANGED, applications will be woken for this and so do not have to stay active to receive this notification. This action can be used to implement actions that wait until power is available to trigger.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_REMOVED", 
+            "activity": false, 
+            "api_level": 21, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MANAGED_PROFILE_REMOVED", 
+            "mime_type": "", 
+            "obs": "Broadcast sent to the primary user when an associated managed profile is removed.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_FIRST_LAUNCH", 
+            "activity": false, 
+            "api_level": 12, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_FIRST_LAUNCH", 
+            "mime_type": "", 
+            "obs": "Sent to the installer package of an application when that application is first launched (that is the first time it is moved out of the stopped state). The data contains the name of the package.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_BUG_REPORT", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.BUG_REPORT", 
+            "mime_type": "", 
+            "obs": "Show activity for reporting a bug.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_CAMERA_BUTTON", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.CAMERA_BUTTON", 
+            "mime_type": "", 
+            "obs": "The \"Camera Button\" was pressed. Includes a single extra field, EXTRA_KEY_EVENT, containing the key event that caused the broadcast.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_ADDED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_ADDED", 
+            "mime_type": "", 
+            "obs": "A new application package has been installed on the device. The data contains the name of the package. Note that the newly installed package does not receive this broadcast.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_GET_CONTENT", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "CATEGORY_OPENABLE", 
+            "constant_value": "android.intent.action.GET_CONTENT", 
+            "mime_type": "TRUE - contact, imagen (image/*), etc (*/*)", 
+            "obs": "Allow the user to select a particular kind of data and return it.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGES_UNSUSPENDED", 
+            "activity": false, 
+            "api_level": 24, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGES_UNSUSPENDED", 
+            "mime_type": "", 
+            "obs": "Packages have been unsuspended.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_BATTERY_LOW", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.BATTERY_LOW", 
+            "mime_type": "", 
+            "obs": "", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MANAGE_NETWORK_USAGE", 
+            "activity": true, 
+            "api_level": 14, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.MANAGE_NETWORK_USAGE", 
+            "mime_type": "", 
+            "obs": "Show settings for managing network data usage of a specific application. Applications should define an activity that offers options to control data usage.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_UNAVAILABLE", 
+            "activity": false, 
+            "api_level": 24, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MANAGED_PROFILE_UNAVAILABLE", 
+            "mime_type": "", 
+            "obs": "Broadcast sent to the primary user when an associated managed profile has become unavailable. Currently this includes when the user enables quiet mode for the profile. ", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_SCANNER_FINISHED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_SCANNER_FINISHED", 
+            "mime_type": "", 
+            "obs": "The media scanner has finished scanning a directory. The path to the scanned directory is contained in the Intent.mData field", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_APPLICATION_RESTRICTIONS_CHANGED", 
+            "activity": false, 
+            "api_level": 21, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.APPLICATION_RESTRICTIONS_CHANGED", 
+            "mime_type": "", 
+            "obs": "Sent after application restrictions are changed.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_UNLOCKED", 
+            "activity": false, 
+            "api_level": 24, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MANAGED_PROFILE_UNLOCKED", 
+            "mime_type": "", 
+            "obs": "Broadcast sent to the primary user when the credential-encrypted private storage for an associated managed profile is unlocked.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MAIN", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.MAIN", 
+            "mime_type": "", 
+            "obs": "Start as a main entry point, does not expect to receive data.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_MOUNTED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_MOUNTED", 
+            "mime_type": "", 
+            "obs": "External media is present and mounted at its mount point. The path to the mount point for the mounted media is contained in the Intent.mData field. The Intent contains an extra with name \"read-only\" and Boolean value to indicate if the media was mounted read only.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_NOFS", 
+            "activity": false, 
+            "api_level": 3, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_NOFS", 
+            "mime_type": "", 
+            "obs": "External media is present, but is using an incompatible fs (or is blank) The path to the mount point for the checking media is contained in the Intent.mData field.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_OPEN_DOCUMENT_TREE", 
+            "activity": true, 
+            "api_level": 21, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.OPEN_DOCUMENT_TREE", 
+            "mime_type": "", 
+            "obs": "Allow the user to pick a directory subtree. When invoked, the system will display the various DocumentsProvider instances installed on the device, letting the user navigate through them. Apps can fully manage documents within the returned directory.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PROVIDER_CHANGED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PROVIDER_CHANGED", 
+            "mime_type": "", 
+            "obs": "Action: Some content providers have parts of their namespace where they publish new events or items that the user may be especially interested in. For these things, they may broadcast this action when the set of interesting items change.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_ADDED", 
+            "activity": false, 
+            "api_level": 21, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MANAGED_PROFILE_ADDED", 
+            "mime_type": "", 
+            "obs": "Broadcast sent to the primary user when an associated managed profile is added (the profile was created and is ready to be used).", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SEARCH_LONG_PRESS", 
+            "activity": true, 
+            "api_level": 3, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.SEARCH_LONG_PRESS", 
+            "mime_type": "", 
+            "obs": "Start action associated with long pressing on the search key.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_BATTERY_OKAY", 
+            "activity": false, 
+            "api_level": 4, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.BATTERY_OKAY", 
+            "mime_type": "", 
+            "obs": "", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_ANSWER", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.ANSWER", 
+            "mime_type": "", 
+            "obs": "Handle an incoming phone call.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_EJECT", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_EJECT", 
+            "mime_type": "", 
+            "obs": "User has expressed the desire to remove the external storage media. Applications should close all files they have open within the mount point when they receive this intent. The path to the mount point for the media to be ejected is contained in the Intent.mData field.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SHUTDOWN", 
+            "activity": false, 
+            "api_level": 4, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.ACTION_SHUTDOWN", 
+            "mime_type": "", 
+            "obs": "Device is shutting down. This is broadcast when the device is being shut down (completely turned off, not sleeping). Once the broadcast is complete, the final shutdown will proceed and all unsaved data lost. Apps will not normally need to handle this, since the foreground activity will be paused as well.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_UID_REMOVED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.UID_REMOVED", 
+            "mime_type": "", 
+            "obs": "A user ID has been removed from the system.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_UNMOUNTED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_UNMOUNTED", 
+            "mime_type": "", 
+            "obs": "External media is present, but not mounted at its mount point. The path to the mount point for the unmounted media is contained in the Intent.mData field", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PICK_ACTIVITY", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.PICK_ACTIVITY", 
+            "mime_type": "", 
+            "obs": "Pick an activity given an intent, returning the class selected", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_CREATE_SHORTCUT", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.CREATE_SHORTCUT", 
+            "mime_type": "", 
+            "obs": "Creates a shortcut", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_DELETE", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.DELETE", 
+            "mime_type": "", 
+            "obs": "", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_VOICE_COMMAND", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.VOICE_COMMAND", 
+            "mime_type": "", 
+            "obs": "Start Voice Command.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_ALL_APPS", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.ALL_APPS", 
+            "mime_type": "", 
+            "obs": "List all available applications.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_REPLACED", 
+            "activity": false, 
+            "api_level": 3, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_REPLACED", 
+            "mime_type": "", 
+            "obs": "A new version of an application package has been installed, replacing an existing version that was previously installed. The data contains the name of the package.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_REMOVED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_REMOVED", 
+            "mime_type": "", 
+            "obs": "An existing application package has been removed from the device. The data contains the name of the package. The package that is being removed does not receive this Intent.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_RESTARTED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_RESTARTED", 
+            "mime_type": "", 
+            "obs": "The user has restarted a package, and all of its processes have been killed. All runtime state associated with it (processes, alarms, notifications, etc) should be removed. Note that the restarted package does notreceive this broadcast. The data contains the name of the package.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_INSERT_OR_EDIT", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.INSERT_OR_EDIT", 
+            "mime_type": "TRUE - MIME type of the item to create or edit", 
+            "obs": "Pick an existing item, or insert a new item, and then edit it.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SENDTO", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.SENDTO", 
+            "mime_type": "", 
+            "obs": "Send a message to someone specified by the data.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_INSTALL", 
+            "activity": false, 
+            "api_level": 1, 
+            "api_level_deprecated": 15, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_INSTALL", 
+            "mime_type": "", 
+            "obs": "Trigger the download and eventual installation of a package.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_SHARED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_SHARED", 
+            "mime_type": "", 
+            "obs": "External media is unmounted because it is being shared via USB mass storage. The path to the mount point for the shared media is contained in the Intent.mData field.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_FACTORY_TEST", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.FACTORY_TEST", 
+            "mime_type": "", 
+            "obs": "Main entry point for factory tests. Only used when the device is booting in factory test node. The implementing package must be installed in the system image.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_UNINSTALL_PACKAGE", 
+            "activity": true, 
+            "api_level": 14, 
+            "api_level_deprecated": 29, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.UNINSTALL_PACKAGE", 
+            "mime_type": "", 
+            "obs": "Launch application uninstaller.", 
+            "permission": [
+                "Manifest.permission.REQUEST_DELETE_PACKAGES"
+            ], 
+            "permission_level": 28.0, 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PICK", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.PICK", 
+            "mime_type": "", 
+            "obs": "Pick an item from the data, returning what was selected.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_INSERT", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.INSERT", 
+            "mime_type": "", 
+            "obs": "Insert an empty item into the given container.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_RUN", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.RUN", 
+            "mime_type": "", 
+            "obs": "Run the data, whatever that means.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MY_PACKAGE_SUSPENDED", 
+            "activity": false, 
+            "api_level": 28, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MY_PACKAGE_SUSPENDED", 
+            "mime_type": "", 
+            "obs": "Sent to a package that has been suspended by the system. This is sent whenever a package is put into a suspended state or any of its app extras change while in the suspended state", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_UMS_CONNECTED", 
+            "activity": false, 
+            "api_level": 1, 
+            "api_level_deprecated": 15, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.UMS_CONNECTED", 
+            "mime_type": "", 
+            "obs": "The device has entered USB Mass Storage mode. This is used mainly for the USB Settings panel. Apps should listen for ACTION_MEDIA_MOUNTED and ACTION_MEDIA_UNMOUNTED broadcasts to be notified when the SD card file system is mounted or unmounted", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_EXTERNAL_APPLICATIONS_AVAILABLE", 
+            "activity": false, 
+            "api_level": 8, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE", 
+            "mime_type": "", 
+            "obs": "Resources for a set of packages (which were previously unavailable) are currently available since the media on which they exist is available.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SCREEN_ON", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.SCREEN_ON", 
+            "mime_type": "", 
+            "obs": "Sent when the device wakes up and becomes interactive.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SCREEN_OFF", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.SCREEN_OFF", 
+            "mime_type": "", 
+            "obs": "Sent when the device goes to sleep and becomes non-interactive.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_DEVICE_STORAGE_LOW", 
+            "activity": false, 
+            "api_level": 1, 
+            "api_level_deprecated": 26, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.DEVICE_STORAGE_LOW", 
+            "mime_type": "", 
+            "obs": "If your app targets Build.VERSION_CODES.O or above, this broadcast will no longer be delivered to any BroadcastReceiverdefined in your manifest. Instead, apps are strongly encouraged to use the improved Context#getCacheDir() behavior so the system can automatically free up storage when needed.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_VIEW_PERMISSION_USAGE", 
+            "activity": true, 
+            "api_level": 29, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.VIEW_PERMISSION_USAGE", 
+            "mime_type": "", 
+            "obs": " Launch UI to show information about the usage of a given permission. This action would be handled by apps that want to show details about how and why given permission is being used.", 
+            "permission": [
+                "Manifest.permission.START_VIEW_PERMISSION_USAGE"
+            ], 
+            "permission_level": 29.0, 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SEND_MULTIPLE", 
+            "activity": true, 
+            "api_level": 4, 
+            "broadcast": false, 
+            "category": "CATEGORY_TYPED_OPENABLE", 
+            "constant_value": "android.intent.action.SEND_MULTIPLE", 
+            "mime_type": "TRUE - MIME type of data being sent", 
+            "obs": "Deliver multiple data to someone else.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_ATTACH_DATA", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.ATTACH_DATA", 
+            "mime_type": "", 
+            "obs": "Used to indicate that some piece of data should be attached to some other place. For example, image data could be attached to a contact. ", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_DATE_CHANGED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.DATE_CHANGED", 
+            "mime_type": "", 
+            "obs": "The date has changed.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_CALL_BUTTON", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.CALL_BUTTON", 
+            "mime_type": "", 
+            "obs": "The user pressed the \"call\" button to go to the dialer or other appropriate UI for placing a call.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PROCESS_TEXT", 
+            "activity": true, 
+            "api_level": 23, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.PROCESS_TEXT", 
+            "mime_type": "", 
+            "obs": "Process a piece of text.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_VIEW_LOCUS", 
+            "activity": true, 
+            "api_level": 29, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.VIEW_LOCUS", 
+            "mime_type": "", 
+            "obs": "Display an activity state associated with an unique LocusId.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_QUICK_CLOCK", 
+            "activity": false, 
+            "api_level": 17, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.QUICK_CLOCK", 
+            "mime_type": "", 
+            "obs": "Sent when the user taps on the clock widget in the system's \"quick settings\" area.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_AVAILABLE", 
+            "activity": false, 
+            "api_level": 24, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MANAGED_PROFILE_AVAILABLE", 
+            "mime_type": "", 
+            "obs": "Broadcast sent to the primary user when an associated managed profile has become available. Currently this includes when the user disables quiet mode for the profile.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_USER_PRESENT", 
+            "activity": false, 
+            "api_level": 3, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.USER_PRESENT", 
+            "mime_type": "", 
+            "obs": "Sent when the user is present after device wakes up (e.g when the keyguard is gone).", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_CARRIER_SETUP", 
+            "activity": true, 
+            "api_level": 26, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.CARRIER_SETUP", 
+            "mime_type": "", 
+            "obs": "Main entry point for carrier setup apps.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_USER_INITIALIZE", 
+            "activity": false, 
+            "api_level": 17, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.USER_INITIALIZE", 
+            "mime_type": "", 
+            "obs": "Sent the first time a user is starting, to allow system apps to perform one time initialization. (This will not be seen by third party applications because a newly initialized user does not have any third party applications installed for it.) ", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_DATA_CLEARED", 
+            "activity": false, 
+            "api_level": 3, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_DATA_CLEARED", 
+            "mime_type": "", 
+            "obs": "The user has cleared the data of a package. This should be preceded by ACTION_PACKAGE_RESTARTED, after which all of its persistent data is erased and this broadcast sent. Note that the cleared package does not receive this broadcast. The data contains the name of the package.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_USER_BACKGROUND", 
+            "activity": false, 
+            "api_level": 17, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.USER_BACKGROUND", 
+            "mime_type": "", 
+            "obs": "Sent when a user switch is happening, causing the process's user to be sent to the background. This is only sent to receivers registered through Context#registerReceiver(BroadcastReceiver, IntentFilter). It is sent to the user that is going to the background. This is sent as a foreground broadcast, since it is part of a visible user interaction; be as quick as possible when handling it.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_ASSIST", 
+            "activity": true, 
+            "api_level": 16, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.ASSIST", 
+            "mime_type": "", 
+            "obs": "Perform assist action.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_OPEN_DOCUMENT", 
+            "activity": true, 
+            "api_level": 19, 
+            "broadcast": false, 
+            "category": "CATEGORY_OPENABLE", 
+            "constant_value": "android.intent.action.OPEN_DOCUMENT", 
+            "mime_type": "TRUE - MIME type of the doc", 
+            "obs": "Allow the user to select and return one or more existing documents. When invoked, the system will display the various DocumentsProvider instances installed on the device, letting the user interactively navigate through them. These documents include local media, such as photos and video, and documents provided by installed cloud storage providers.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_POWER_CONNECTED", 
+            "activity": false, 
+            "api_level": 4, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.ACTION_POWER_CONNECTED", 
+            "mime_type": "", 
+            "obs": "External power has been connected to the device. This is intended for applications that wish to register specifically to this notification. Unlike ACTION_BATTERY_CHANGED, applications will be woken for this and so do not have to stay active to receive this notification. This action can be used to implement actions that wait until power is available to trigger.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_DEFINE", 
+            "activity": true, 
+            "api_level": 29, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.DEFINE", 
+            "mime_type": "", 
+            "obs": "Define the meaning of the selected word(s).", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGES_SUSPENDED", 
+            "activity": false, 
+            "api_level": 24, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGES_SUSPENDED", 
+            "mime_type": "", 
+            "obs": "Packages have been suspended.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_LOCKED_BOOT_COMPLETED", 
+            "activity": false, 
+            "api_level": 24, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.LOCKED_BOOT_COMPLETED", 
+            "mime_type": "", 
+            "obs": "This is broadcast once, after the user has finished booting, but while still in the \"locked\" state. It can be used to perform application-specific initialization, such as installing alarms.", 
+            "permission": [
+                "Manifest.permission.RECEIVE_BOOT_COMPLETED"
+            ], 
+            "permission_level": 24.0, 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_GTALK_SERVICE_DISCONNECTED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.GTALK_DISCONNECTED", 
+            "mime_type": "", 
+            "obs": "A GTalk connection has been disconnected.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_USER_UNLOCKED", 
+            "activity": false, 
+            "api_level": 24, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.USER_UNLOCKED", 
+            "mime_type": "", 
+            "obs": "Sent when the credential-encrypted private storage has become unlocked for the target user. This is only sent to registered receivers, not manifest receivers.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_TIMEZONE_CHANGED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.TIMEZONE_CHANGED", 
+            "mime_type": "", 
+            "obs": "The timezone has changed.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_APPLICATION_PREFERENCES", 
+            "activity": true, 
+            "api_level": 24, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.APPLICATION_PREFERENCES", 
+            "mime_type": "", 
+            "obs": "An activity that provides a user interface for adjusting application preferences. Optional but recommended settings for all applications which have settings.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_HEADSET_PLUG", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.HEADSET_PLUG", 
+            "mime_type": "", 
+            "obs": "Wired Headset plugged in or unplugged. Same as AudioManager.ACTION_HEADSET_PLUG, to be consulted for value and documentation.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_GTALK_SERVICE_CONNECTED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.GTALK_CONNECTED", 
+            "mime_type": "", 
+            "obs": "A GTalk connection has been established.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_LOCALE_CHANGED", 
+            "activity": false, 
+            "api_level": 7, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.LOCALE_CHANGED", 
+            "mime_type": "", 
+            "obs": "The current device's locale has changed", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_DREAMING_STARTED", 
+            "activity": false, 
+            "api_level": 17, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.DREAMING_STARTED", 
+            "mime_type": "", 
+            "obs": "Sent after the system starts dreaming.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_BUTTON", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_BUTTON", 
+            "mime_type": "", 
+            "obs": "The \"Media Button\" was pressed. Includes a single extra field, EXTRA_KEY_EVENT, containing the key event that caused the broadcast.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_CHOOSER", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.CHOOSER", 
+            "mime_type": "", 
+            "obs": "Display an activity chooser, allowing the user to pick what they want to before proceeding.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_INSTALL_PACKAGE", 
+            "activity": true, 
+            "api_level": 14, 
+            "api_level_deprecated": 29, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.INSTALL_PACKAGE", 
+            "mime_type": "", 
+            "obs": "Launch application installer.", 
+            "permission": [
+                "Manifest.permission.REQUEST_INSTALL_PACKAGES"
+            ], 
+            "permission_level": 25.0, 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_REBOOT", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.REBOOT", 
+            "mime_type": "", 
+            "obs": "Have the device reboot. This is only for use by system code.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SET_WALLPAPER", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.SET_WALLPAPER", 
+            "mime_type": "", 
+            "obs": "Show settings for choosing wallpaper.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_WEB_SEARCH", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.WEB_SEARCH", 
+            "mime_type": "", 
+            "obs": " Perform a web search.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_SYSTEM_TUTORIAL", 
+            "activity": true, 
+            "api_level": 3, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.SYSTEM_TUTORIAL", 
+            "mime_type": "", 
+            "obs": "Start the platform-defined tutorial", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_BOOT_COMPLETED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.BOOT_COMPLETED", 
+            "mime_type": "", 
+            "obs": "", 
+            "permission": [
+                "Manifest.permission.RECEIVE_BOOT_COMPLETED"
+            ], 
+            "permission_level": 1.0, 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_QUICK_VIEW", 
+            "activity": true, 
+            "api_level": 24, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.QUICK_VIEW", 
+            "mime_type": "", 
+            "obs": "Quick view the data. Launches a quick viewer for a URI or a list of URIs.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_WALLPAPER_CHANGED", 
+            "activity": false, 
+            "api_level": 1, 
+            "api_level_deprecated": 16, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.WALLPAPER_CHANGED", 
+            "mime_type": "", 
+            "obs": "The current system wallpaper has changed. See WallpaperManager for retrieving the new wallpaper. This should only be used to determine when the wallpaper has changed to show the new wallpaper to the user. You should certainly never, in response to this, change the wallpaper or other attributes of it such as the suggested size. ", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_BAD_REMOVAL", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_BAD_REMOVAL", 
+            "mime_type": "", 
+            "obs": "External media was removed from SD card slot, but mount point was not unmounted. The path to the mount point for the removed media is contained in the Intent.mData field.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_TIME_CHANGED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.TIME_SET", 
+            "mime_type": "", 
+            "obs": "The time was set", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE", 
+            "activity": false, 
+            "api_level": 8, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE", 
+            "mime_type": "", 
+            "obs": "Resources for a set of packages are currently unavailable since the media on which they exist is unavailable", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_VIEW", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.VIEW", 
+            "mime_type": "", 
+            "obs": "Display the data to the user. This is the most common action performed on data -- it is the generic action you can use on a piece of data to get the most reasonable thing to occur.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_USER_FOREGROUND", 
+            "activity": false, 
+            "api_level": 17, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.USER_FOREGROUND", 
+            "mime_type": "", 
+            "obs": "Sent when a user switch is happening, causing the process's user to be brought to the foreground. This is only sent to receivers registered through Context#registerReceiver(BroadcastReceiver, IntentFilter). It is sent to the user that is going to the foreground. This is sent as a foreground broadcast, since it is part of a visible user interaction; be as quick as possible when handling it.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_CALL", 
+            "activity": true, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.CALL", 
+            "mime_type": "", 
+            "obs": "This Intent cannot be used to call emergency numbers.", 
+            "permission": [
+                "Manifest.permission.CALL_PHONE"
+            ], 
+            "permission_level": 23.0, 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_CHECKING", 
+            "activity": false, 
+            "api_level": 3, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_CHECKING", 
+            "mime_type": "", 
+            "obs": "External media is present, and being disk-checked The path to the mount point for the checking media is contained in the Intent.mData field.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_FULLY_REMOVED", 
+            "activity": false, 
+            "api_level": 14, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.PACKAGE_FULLY_REMOVED", 
+            "mime_type": "", 
+            "obs": "An existing application package has been completely removed from the device. The data contains the name of the package. This is like ACTION_PACKAGE_REMOVED, but only set when EXTRA_DATA_REMOVED is true andEXTRA_REPLACING is false of that broadcast.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_SCANNER_STARTED", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MEDIA_SCANNER_STARTED", 
+            "mime_type": "", 
+            "obs": "The media scanner has started scanning a directory. The path to the directory being scanned is contained in the Intent.mData field.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_POWER_USAGE_SUMMARY", 
+            "activity": true, 
+            "api_level": 4, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.POWER_USAGE_SUMMARY", 
+            "mime_type": "", 
+            "obs": "Show power usage information to the user.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_DEFAULT", 
+            "activity": false, 
+            "api_level": 1, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.VIEW", 
+            "mime_type": "", 
+            "obs": "A synonym for ACTION_VIEW, the \"standard\" action that is performed on a piece of data.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_PASTE", 
+            "activity": true, 
+            "api_level": 11, 
+            "broadcast": false, 
+            "category": "", 
+            "constant_value": "android.intent.action.PASTE", 
+            "mime_type": "", 
+            "obs": "Create a new item in the given container, initializing it from the current contents of the clipboard.", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_DOCK_EVENT", 
+            "activity": false, 
+            "api_level": 5, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.DOCK_EVENT", 
+            "mime_type": "", 
+            "obs": "", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": false, 
+            "wearable_specific": false
+        }, 
+        {
+            "action_name": "ACTION_MY_PACKAGE_UNSUSPENDED", 
+            "activity": false, 
+            "api_level": 28, 
+            "broadcast": true, 
+            "category": "", 
+            "constant_value": "android.intent.action.MY_PACKAGE_UNSUSPENDED", 
+            "mime_type": "", 
+            "obs": "Sent to a package that has been unsuspended", 
+            "permission": [], 
+            "permission_level": "", 
+            "protected": true, 
+            "wearable_specific": false
+        }
+    ], 
+    "action_extra": [
+        {
+            "action_name": "ACTION_AIRPLANE_MODE_CHANGED", 
+            "extra_name": "state", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_APP_ERROR", 
+            "extra_name": "EXTRA_BUG_REPORT", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_ASSIST", 
+            "extra_name": "EXTRA_ASSIST_PACKAGE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_ASSIST", 
+            "extra_name": "EXTRA_ASSIST_CONTEXT", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_ASSIST", 
+            "extra_name": "EXTRA_REFERRER", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_CAMERA_BUTTON", 
+            "extra_name": "EXTRA_KEY_EVENT", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_CHOOSER", 
+            "extra_name": "EXTRA_INTENT", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_CHOOSER", 
+            "extra_name": "EXTRA_TITLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_CREATE_DOCUMENT", 
+            "extra_name": "EXTRA_TITLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_CREATE_DOCUMENT", 
+            "extra_name": "DocumentsContract.EXTRA_INITIAL_URI", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_CREATE_SHORTCUT", 
+            "extra_name": "EXTRA_SHORTCUT_INTENT", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_CREATE_SHORTCUT", 
+            "extra_name": "EXTRA_SHORTCUT_NAME", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_CREATE_SHORTCUT", 
+            "extra_name": "EXTRA_SHORTCUT_ICON", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_CREATE_SHORTCUT", 
+            "extra_name": "EXTRA_SHORTCUT_ICON_RESOURCE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_DEFINE", 
+            "extra_name": "EXTRA_TEXT", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_DOCK_EVENT", 
+            "extra_name": "EXTRA_DOCK_STATE", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_EXTERNAL_APPLICATIONS_AVAILABLE", 
+            "extra_name": "EXTRA_CHANGED_PACKAGE_LIST", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_EXTERNAL_APPLICATIONS_AVAILABLE", 
+            "extra_name": "EXTRA_CHANGED_UID_LIST", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE", 
+            "extra_name": "EXTRA_CHANGED_PACKAGE_LIST", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE", 
+            "extra_name": "EXTRA_CHANGED_UID_LIST", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_GET_CONTENT", 
+            "extra_name": "EXTRA_LOCAL_ONLY", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_GET_CONTENT", 
+            "extra_name": "EXTRA_ALLOW_MULTIPLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_GET_RESTRICTION_ENTRIES", 
+            "extra_name": "EXTRA_RESTRICTIONS_BUNDLE", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_INSTALL_FAILURE", 
+            "extra_name": "EXTRA_INTENT", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_INSTALL_FAILURE", 
+            "extra_name": "EXTRA_SPLIT_NAME", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_INSTALL_PACKAGE", 
+            "extra_name": "EXTRA_INSTALLER_PACKAGE_NAME", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_INSTALL_PACKAGE", 
+            "extra_name": "EXTRA_NOT_UNKNOWN_SOURCE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_INSTALL_PACKAGE", 
+            "extra_name": "EXTRA_ALLOW_REPLACE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_INSTALL_PACKAGE", 
+            "extra_name": "EXTRA_RETURN_RESULT", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_ADDED", 
+            "extra_name": "EXTRA_USER", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_AVAILABLE", 
+            "extra_name": "EXTRA_USER", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_AVAILABLE", 
+            "extra_name": "EXTRA_QUIET_MODE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_REMOVED", 
+            "extra_name": "EXTRA_USER", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_UNAVAILABLE", 
+            "extra_name": "EXTRA_USER", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_UNAVAILABLE", 
+            "extra_name": "EXTRA_QUIET_MODE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_MANAGED_PROFILE_UNLOCKED", 
+            "extra_name": "EXTRA_USER", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_MEDIA_BUTTON", 
+            "extra_name": "EXTRA_KEY_EVENT", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_MY_PACKAGE_SUSPENDED", 
+            "extra_name": "EXTRA_SUSPENDED_PACKAGE_EXTRAS", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_NEW_OUTGOING_CALL", 
+            "extra_name": "EXTRA_PHONE_NUMBER", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_OPEN_DOCUMENT", 
+            "extra_name": "EXTRA_ALLOW_MULTIPLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_OPEN_DOCUMENT", 
+            "extra_name": "EXTRA_MIME_TYPES", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_OPEN_DOCUMENT_TREE", 
+            "extra_name": "DocumentsContract.EXTRA_INITIAL_URI", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_ADDED", 
+            "extra_name": "EXTRA_UID", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_ADDED", 
+            "extra_name": "EXTRA_REPLACING", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_CHANGED", 
+            "extra_name": "EXTRA_UID", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_CHANGED", 
+            "extra_name": "EXTRA_CHANGED_COMPONENT_NAME_LIST", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_CHANGED", 
+            "extra_name": "EXTRA_DONT_KILL_APP", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_DATA_CLEARED", 
+            "extra_name": "EXTRA_UID", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_DATA_CLEARED", 
+            "extra_name": "EXTRA_PACKAGE_NAME", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_FULLY_REMOVED", 
+            "extra_name": "EXTRA_UID", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_FULLY_REMOVED", 
+            "extra_name": "EXTRA_DATA_REMOVED", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_FULLY_REMOVED", 
+            "extra_name": "EXTRA_REPLACING", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_REMOVED", 
+            "extra_name": "EXTRA_UID", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_REMOVED", 
+            "extra_name": "EXTRA_DATA_REMOVED", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_REMOVED", 
+            "extra_name": "EXTRA_REPLACING", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_REPLACED", 
+            "extra_name": "EXTRA_UID", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_PACKAGE_RESTARTED", 
+            "extra_name": "EXTRA_UID", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGES_SUSPENDED", 
+            "extra_name": "EXTRA_CHANGED_PACKAGE_LIST", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGES_SUSPENDED", 
+            "extra_name": "EXTRA_CHANGED_UID_LIST", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGES_UNSUSPENDED", 
+            "extra_name": "EXTRA_CHANGED_PACKAGE_LIST", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PACKAGES_UNSUSPENDED", 
+            "extra_name": "EXTRA_CHANGED_UID_LIST", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PICK_ACTIVITY", 
+            "extra_name": "EXTRA_INTENT", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_PROCESS_TEXT", 
+            "extra_name": "EXTRA_PROCESS_TEXT", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PROCESS_TEXT", 
+            "extra_name": "EXTRA_PROCESS_TEXT_READONLY", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_PROVIDER_CHANGED", 
+            "extra_name": "count", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_QUICK_VIEW", 
+            "extra_name": "EXTRA_INDEX", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_QUICK_VIEW", 
+            "extra_name": "EXTRA_QUICK_VIEW_FEATURES", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEARCH", 
+            "extra_name": "SearchManager.QUERY", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_SEND", 
+            "extra_name": "EXTRA_TEXT", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND", 
+            "extra_name": "EXTRA_STREAM", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND", 
+            "extra_name": "EXTRA_HTML_TEXT", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND", 
+            "extra_name": "EXTRA_EMAIL", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND", 
+            "extra_name": "EXTRA_CC", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND", 
+            "extra_name": "EXTRA_BCC", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND", 
+            "extra_name": "EXTRA_SUBJECT", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND_MULTIPLE", 
+            "extra_name": "EXTRA_TEXT_MULTIPLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND_MULTIPLE", 
+            "extra_name": "EXTRA_STREAM_MULTIPLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND_MULTIPLE", 
+            "extra_name": "EXTRA_HTML_TEXT_MULTIPLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND_MULTIPLE", 
+            "extra_name": "EXTRA_EMAIL_MULTIPLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND_MULTIPLE", 
+            "extra_name": "EXTRA_CC_MULTIPLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND_MULTIPLE", 
+            "extra_name": "EXTRA_BCC_MULTIPLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SEND_MULTIPLE", 
+            "extra_name": "EXTRA_SUBJECT_MULTIPLE", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SHOW_APP_INFO", 
+            "extra_name": "EXTRA_PACKAGE_NAME", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_SHUTDOWN", 
+            "extra_name": "EXTRA_SHUTDOWN_USERSPACE_ONLY", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_SYSTEM_TUTORIAL", 
+            "extra_name": "SearchManager.QUERY", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_TIMEZONE_CHANGED", 
+            "extra_name": "time-zone", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_TRANSLATE", 
+            "extra_name": "EXTRA_TEXT", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_UID_REMOVED", 
+            "extra_name": "EXTRA_UID", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_UNINSTALL_PACKAGE", 
+            "extra_name": "EXTRA_RETURN_RESULT", 
+            "optional": true
+        }, 
+        {
+            "action_name": "ACTION_VIEW_LOCUS", 
+            "extra_name": "EXTRA_LOCUS_ID", 
+            "optional": false
+        }, 
+        {
+            "action_name": "ACTION_WEB_SEARCH", 
+            "extra_name": "SearchManager.QUERY", 
+            "optional": false
+        }
+    ], 
+    "data": [
+        {
+            "action_name": "ACTION_PACKAGE_INSTALL", 
+            "obs": "", 
+            "optional": false, 
+            "type": "URI-data"
+        }, 
+        {
+            "action_name": "ACTION_SENDTO", 
+            "obs": "", 
+            "optional": false, 
+            "type": "URI-target"
+        }, 
+        {
+            "action_name": "ACTION_INSTALL_PACKAGE", 
+            "obs": "", 
+            "optional": false, 
+            "type": "URI-data"
+        }, 
+        {
+            "action_name": "ACTION_QUICK_VIEW", 
+            "obs": "", 
+            "optional": false, 
+            "type": "URI-data"
+        }, 
+        {
+            "action_name": "ACTION_EDIT", 
+            "obs": "", 
+            "optional": false, 
+            "type": "URI-data"
+        }, 
+        {
+            "action_name": "ACTION_DIAL", 
+            "obs": "", 
+            "optional": true, 
+            "type": "URI-phone number"
+        }, 
+        {
+            "action_name": "ACTION_CALL", 
+            "obs": "", 
+            "optional": false, 
+            "type": "URI-phone number"
+        }, 
+        {
+            "action_name": "ACTION_PICK", 
+            "obs": "vnd.android.cursor.dir/*", 
+            "optional": false, 
+            "type": "URI-directory"
+        }, 
+        {
+            "action_name": "ACTION_VIEW", 
+            "obs": "", 
+            "optional": false, 
+            "type": "URI-data"
+        }, 
+        {
+            "action_name": "ACTION_DELETE", 
+            "obs": "", 
+            "optional": false, 
+            "type": "URI-data"
+        }, 
+        {
+            "action_name": "ACTION_INSERT", 
+            "obs": "vnd.android.cursor.dir/*", 
+            "optional": false, 
+            "type": "URI-directory"
+        }, 
+        {
+            "action_name": "ACTION_PASTE", 
+            "obs": "vnd.android.cursor.dir/*", 
+            "optional": false, 
+            "type": "URI-directory"
+        }, 
+        {
+            "action_name": "ACTION_ATTACH_DATA", 
+            "obs": "", 
+            "optional": false, 
+            "type": "URI-data"
+        }
+    ], 
+    "extra_field": [
+        {
+            "api_level": 24, 
+            "constant_value": "android.intent.extra.INDEX", 
+            "extra_name": "EXTRA_INDEX", 
+            "obs": "Optional index with semantics depending on the intent action.", 
+            "type": "Integer", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 18, 
+            "constant_value": "android.intent.extra.ALLOW_MULTIPLE", 
+            "extra_name": "EXTRA_ALLOW_MULTIPLE", 
+            "obs": "Extra used to indicate that an intent can allow the user to select and return multiple items. This is a boolean extra; the default is false. If true, an implementation is allowed to present the user with a UI where they can pick multiple items that are all returned to the caller.", 
+            "type": "boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.PHONE_NUMBER", 
+            "extra_name": "EXTRA_PHONE_NUMBER", 
+            "obs": "A String holding the phone number originally entered in ACTION_NEW_OUTGOING_CALL, or the actual number to call in a ACTION_CALL.", 
+            "type": "String", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "query", 
+            "extra_name": "SearchManager.QUERY", 
+            "obs": "Is the text to search for. If it is a url starts with http or https, the site will be opened. If it is plain text, Google search will be applied.", 
+            "type": "String", 
+            "type_aggr": "URL"
+        }, 
+        {
+            "api_level": 1, 
+            "api_level_deprecated": 26, 
+            "constant_value": "android.intent.extra.shortcut.INTENT", 
+            "extra_name": "EXTRA_SHORTCUT_INTENT", 
+            "obs": "The name of the extra used to define the Intent of a shortcut.", 
+            "type": "OBJECT", 
+            "type_aggr": "android.content.Intent"
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.EMAIL", 
+            "extra_name": "EXTRA_EMAIL", 
+            "obs": "A String[] holding e-mail addresses that should be delivered to.", 
+            "type": "String []", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.CC", 
+            "extra_name": "EXTRA_CC_MULTIPLE", 
+            "obs": "A String[] holding e-mail addresses that should be carbon copied.", 
+            "type": "String []-ArrayList", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.UID", 
+            "extra_name": "EXTRA_UID", 
+            "obs": "Used as an int extra field in ACTION_UID_REMOVED intents to supply the uid the package had been assigned. Also an optional extra in ACTION_PACKAGE_REMOVED or ACTION_PACKAGE_CHANGED for the same purpose.", 
+            "type": "int", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 5, 
+            "constant_value": "android.intent.extra.DOCK_STATE", 
+            "extra_name": "EXTRA_DOCK_STATE", 
+            "obs": "Used as an int extra field in ACTION_DOCK_EVENT intents to request the dock state. Possible values are EXTRA_DOCK_STATE_UNDOCKED, EXTRA_DOCK_STATE_DESK, or EXTRA_DOCK_STATE_CAR, or EXTRA_DOCK_STATE_LE_DESK, or EXTRA_DOCK_STATE_HE_DESK.", 
+            "type": "int", 
+            "type_aggr": "[0,1,2,3,4]"
+        }, 
+        {
+            "constant_value": "time-zone", 
+            "extra_name": "time-zone", 
+            "obs": "The java.util.TimeZone.getID() value identifying the new time zone.", 
+            "type": "String", 
+            "type_aggr": "java.util.TimeZone.getID()"
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.STREAM", 
+            "extra_name": "EXTRA_STREAM_MULTIPLE", 
+            "obs": "A content: URI holding a stream of data associated with the Intent, used with ACTION_SEND to supply the data being sent.", 
+            "type": "URI-ArrayList", 
+            "type_aggr": "stream"
+        }, 
+        {
+            "api_level": 19, 
+            "constant_value": "android.intent.extra.MIME_TYPES", 
+            "extra_name": "EXTRA_MIME_TYPES", 
+            "obs": "Extra used to communicate a set of acceptable MIME types. The type of the extra is String[]. Values may be a combination of concrete MIME types (such as \"image/png\") and/or partial MIME types (such as \"audio/*\").", 
+            "type": "String[]", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 14, 
+            "constant_value": "android.intent.extra.INSTALLER_PACKAGE_NAME", 
+            "extra_name": "EXTRA_INSTALLER_PACKAGE_NAME", 
+            "obs": "Used as a string extra field with ACTION_INSTALL_PACKAGE to install a package. Specifies the installer package name; this package will receive the ACTION_APP_ERROR intent.", 
+            "type": "String", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 19, 
+            "constant_value": "android.intent.extra.SHUTDOWN_USERSPACE_ONLY", 
+            "extra_name": "EXTRA_SHUTDOWN_USERSPACE_ONLY", 
+            "obs": "Optional extra for ACTION_SHUTDOWN that allows the sender to qualify that this shutdown is only for the user space of the system, not a complete shutdown.", 
+            "type": "boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 28, 
+            "constant_value": "android.intent.extra.SUSPENDED_PACKAGE_EXTRAS", 
+            "extra_name": "EXTRA_SUSPENDED_PACKAGE_EXTRAS", 
+            "obs": "A Bundle of extras for a package being suspended. Will be sent as an extra with ACTION_MY_PACKAGE_SUSPENDED. The contents of this Bundle are a contract between the suspended app and the suspending app, i.e. any app with the permission android.permission.SUSPEND_APPS. This is meant to enable the suspended app to better handle the state of being suspended.", 
+            "type": "OBJECT", 
+            "type_aggr": "android.os.Bundle"
+        }, 
+        {
+            "api_level": 23, 
+            "constant_value": "android.intent.extra.PROCESS_TEXT", 
+            "extra_name": "EXTRA_PROCESS_TEXT", 
+            "obs": "The name of the extra used to define the text to be processed, as a CharSequence. Note that this may be a styled CharSequence, so you must use Bundle#getCharSequence(String) to retrieve it.", 
+            "type": "CharSequence", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.BCC", 
+            "extra_name": "EXTRA_BCC_MULTIPLE", 
+            "obs": "A String[] holding e-mail addresses that should be blind carbon copied.", 
+            "type": "String []-ArrayList", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 21, 
+            "constant_value": "android.intent.extra.USER", 
+            "extra_name": "EXTRA_USER", 
+            "obs": "The UserHandle carried with intents.", 
+            "type": "OBJECT", 
+            "type_aggr": "android.os.UserHandle"
+        }, 
+        {
+            "api_level": 14, 
+            "constant_value": "android.intent.extra.RETURN_RESULT", 
+            "extra_name": "EXTRA_RETURN_RESULT", 
+            "obs": "Specifies that the installer UI should return to the application the result code of the install/uninstall. The returned result code will be Activity.RESULT_OK on success or Activity.RESULT_FIRST_USER on failure.", 
+            "type": "boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 27, 
+            "constant_value": "android.intent.extra.SPLIT_NAME", 
+            "extra_name": "EXTRA_SPLIT_NAME", 
+            "obs": "An app split name.", 
+            "type": "String", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.TEXT", 
+            "extra_name": "EXTRA_TEXT", 
+            "obs": "A constant CharSequence that is associated with the Intent, used with ACTION_SEND to supply the literal data to be sent. Note that this may be a styled CharSequence, so you must use Bundle#getCharSequence(String) to retrieve it.", 
+            "type": "CharSequence", 
+            "type_aggr": ""
+        }, 
+        {
+            "constant_value": "state", 
+            "extra_name": "state", 
+            "obs": "A boolean value indicating whether Airplane Mode is on. If true, then cell radio and possibly other radios such as bluetooth or WiFi may have also been turned off", 
+            "type": "boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 14, 
+            "api_level_deprecated": 16, 
+            "constant_value": "android.intent.extra.ALLOW_REPLACE", 
+            "extra_name": "EXTRA_ALLOW_REPLACE", 
+            "obs": "Used as a boolean extra field with ACTION_INSTALL_PACKAGE to install a package. Tells the installer UI to skip the confirmation with the user if the .apk is replacing an existing one.", 
+            "type": "boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 8, 
+            "constant_value": "android.intent.extra.changed_package_list", 
+            "extra_name": "EXTRA_CHANGED_PACKAGE_LIST", 
+            "obs": "This field is part of ACTION_EXTERNAL_APPLICATIONS_AVAILABLE, ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE, ACTION_PACKAGES_SUSPENDED, ACTION_PACKAGES_UNSUSPENDED and contains a string array of all of the components that have changed.", 
+            "type": "String []", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "api_level_deprecated": 26, 
+            "constant_value": "android.intent.extra.shortcut.NAME", 
+            "extra_name": "EXTRA_SHORTCUT_NAME", 
+            "obs": "The name of the extra used to define the name of a shortcut.", 
+            "type": "String", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.TITLE", 
+            "extra_name": "EXTRA_TITLE", 
+            "obs": "A CharSequence dialog title to provide to the user when used with a ACTION_CHOOSER.", 
+            "type": "CharSequence", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 14, 
+            "constant_value": "android.intent.extra.BUG_REPORT", 
+            "extra_name": "EXTRA_BUG_REPORT", 
+            "obs": "The bug report is passed in using the extra field", 
+            "type": "PARCELABLE", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 14, 
+            "constant_value": "android.intent.extra.NOT_UNKNOWN_SOURCE", 
+            "extra_name": "EXTRA_NOT_UNKNOWN_SOURCE", 
+            "obs": "Used as a boolean extra field with ACTION_INSTALL_PACKAGE to install a package. Specifies that the application being installed should not be treated as coming from an unknown source, but as coming from the app invoking the Intent. For this to work you must start the installer with startActivityForResult().", 
+            "type": "boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 11, 
+            "constant_value": "android.intent.extra.LOCAL_ONLY", 
+            "extra_name": "EXTRA_LOCAL_ONLY", 
+            "obs": "Extra used to indicate that an intent should only return data that is on the local device. This is a boolean extra; the default is false. If true, an implementation should only allow the user to select data that is already on the device, not requiring it be downloaded from a remote service when opened.", 
+            "type": "boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.INTENT", 
+            "extra_name": "EXTRA_INTENT", 
+            "obs": "An Intent describing the choices you would like shown with ACTION_PICK_ACTIVITY or ACTION_CHOOSER", 
+            "type": "OBJECT", 
+            "type_aggr": "android.content.Intent"
+        }, 
+        {
+            "api_level": 23, 
+            "constant_value": "android.intent.extra.PROCESS_TEXT_READONLY", 
+            "extra_name": "EXTRA_PROCESS_TEXT_READONLY", 
+            "obs": "The name of the boolean extra used to define if the processed text will be used as read-only.", 
+            "type": "Boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 29, 
+            "constant_value": "android.intent.extra.LOCUS_ID", 
+            "extra_name": "EXTRA_LOCUS_ID", 
+            "obs": "ID of the context used on ACTION_VIEW_LOCUS.", 
+            "type": "OBJECT", 
+            "type_aggr": "android.content.LocusId"
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.DONT_KILL_APP", 
+            "extra_name": "EXTRA_DONT_KILL_APP", 
+            "obs": "Used as a boolean extra field in ACTION_PACKAGE_REMOVED or ACTION_PACKAGE_CHANGED intents to override the default action of restarting the application.", 
+            "type": "Boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 3, 
+            "constant_value": "android.intent.extra.REPLACING", 
+            "extra_name": "EXTRA_REPLACING", 
+            "obs": "Used as a boolean extra field in ACTION_PACKAGE_REMOVED intents to indicate that this is a replacement of the package, so this broadcast will immediately be followed by an add broadcast for a different version of the same package.", 
+            "type": "Boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 18, 
+            "constant_value": "android.intent.extra.ASSIST_CONTEXT", 
+            "extra_name": "EXTRA_ASSIST_CONTEXT", 
+            "obs": "An optional field on ACTION_ASSIST and containing additional contextual information supplied by the current foreground app at the time of the assist request. This is a Bundle of additional data.", 
+            "type": "OBJECT", 
+            "type_aggr": "android.os.Bundle"
+        }, 
+        {
+            "api_level": 16, 
+            "constant_value": "android.intent.extra.HTML_TEXT", 
+            "extra_name": "EXTRA_HTML_TEXT", 
+            "obs": "A constant String that is associated with the Intent, used with ACTION_SEND to supply an alternative to EXTRA_TEXT as HTML formatted text. Note that you must also supply EXTRA_TEXT.", 
+            "type": "String", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 8, 
+            "constant_value": "android.intent.extra.changed_uid_list", 
+            "extra_name": "EXTRA_CHANGED_UID_LIST", 
+            "obs": "This field is part of ACTION_EXTERNAL_APPLICATIONS_AVAILABLE, ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE and contains an integer array of uids of all of the components that have changed.", 
+            "type": "int []", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 17, 
+            "constant_value": "android.intent.extra.REFERRER", 
+            "extra_name": "EXTRA_REFERRER", 
+            "obs": "This extra can be used with any Intent used to launch an activity, supplying information about who is launching that activity.", 
+            "type": "URI", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 18, 
+            "constant_value": "android.intent.extra.ASSIST_PACKAGE", 
+            "extra_name": "EXTRA_ASSIST_PACKAGE", 
+            "obs": "An optional field on ACTION_ASSIST containing the name of the current foreground application package at the time the assist was invoked", 
+            "type": "String", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.KEY_EVENT", 
+            "extra_name": "EXTRA_KEY_EVENT", 
+            "obs": "A KeyEvent object containing the event that triggered the creation of the Intent it is in.", 
+            "type": "OBJECT", 
+            "type_aggr": "android.view.KeyEvent"
+        }, 
+        {
+            "api_level": 18, 
+            "constant_value": "android.intent.extra.restrictions_bundle", 
+            "extra_name": "EXTRA_RESTRICTIONS_BUNDLE", 
+            "obs": "Extra sent in the intent to the BroadcastReceiver that handles ACTION_GET_RESTRICTION_ENTRIES. The type of the extra is a Bundle containing the restrictions as key/value pairs. The value types can be Boolean, String or String[] depending on the restriction type.", 
+            "type": "Bundle", 
+            "type_aggr": "key/value pairs"
+        }, 
+        {
+            "api_level": 7, 
+            "constant_value": "android.intent.extra.changed_component_name_list", 
+            "extra_name": "EXTRA_CHANGED_COMPONENT_NAME_LIST", 
+            "obs": "This field is part of ACTION_PACKAGE_CHANGED, and contains a string array of all of the components that have changed. If the state of the overall package has changed, then it will contain an entry with the package name itself.", 
+            "type": "String []", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.SUBJECT", 
+            "extra_name": "EXTRA_SUBJECT", 
+            "obs": "A constant string holding the desired subject line of a message.", 
+            "type": "String", 
+            "type_aggr": ""
+        }, 
+        {
+            "constant_value": "count", 
+            "extra_name": "count", 
+            "obs": " The number of items in the data set. This is the same as the number of items in the cursor returned by querying the data URI.", 
+            "type": "int", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.BCC", 
+            "extra_name": "EXTRA_BCC", 
+            "obs": "A String[] holding e-mail addresses that should be blind carbon copied.", 
+            "type": "String []", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 24, 
+            "constant_value": "android.intent.extra.QUIET_MODE", 
+            "extra_name": "EXTRA_QUIET_MODE", 
+            "obs": "Optional boolean extra indicating whether quiet mode has been switched on or off. When a profile goes into quiet mode, all apps in the profile are killed and the profile user is stopped. Widgets originating from the profile are masked, and app launcher icons are grayed out.", 
+            "type": "boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 26, 
+            "constant_value": "android.provider.extra.INITIAL_UR", 
+            "extra_name": "DocumentsContract.EXTRA_INITIAL_URI", 
+            "obs": "Sets the desired initial location visible to user when file chooser is shown.", 
+            "type": "URI", 
+            "type_aggr": "file-location"
+        }, 
+        {
+            "api_level": 1, 
+            "api_level_deprecated": 26, 
+            "constant_value": "android.intent.extra.shortcut.ICON", 
+            "extra_name": "EXTRA_SHORTCUT_ICON", 
+            "obs": "The name of the extra used to define the icon, as a Bitmap, of a shortcut.", 
+            "type": "OBJECT", 
+            "type_aggr": "Bitmap"
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.STREAM", 
+            "extra_name": "EXTRA_STREAM", 
+            "obs": "A content: URI holding a stream of data associated with the Intent, used with ACTION_SEND to supply the data being sent.", 
+            "type": "URI", 
+            "type_aggr": "stream"
+        }, 
+        {
+            "api_level": 1, 
+            "api_level_deprecated": 26, 
+            "constant_value": "android.intent.extra.shortcut.ICON_RESOURCE", 
+            "extra_name": "EXTRA_SHORTCUT_ICON_RESOURCE", 
+            "obs": "The name of the extra used to define the icon, as a ShortcutIconResource, of a shortcut.", 
+            "type": "OBJECT", 
+            "type_aggr": "android.content.Intent.ShortcutIconResource"
+        }, 
+        {
+            "api_level": 24, 
+            "constant_value": "android.intent.extra.PACKAGE_NAME", 
+            "extra_name": "EXTRA_PACKAGE_NAME", 
+            "obs": "An app package name", 
+            "type": "String", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 3, 
+            "constant_value": "android.intent.extra.DATA_REMOVED", 
+            "extra_name": "EXTRA_DATA_REMOVED", 
+            "obs": "Used as a boolean extra field in ACTION_PACKAGE_REMOVED intents to indicate whether this represents a full uninstall (removing both the code and its data) or a partial uninstall (leaving its data, implying that this is an update).", 
+            "type": "Boolean", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.CC", 
+            "extra_name": "EXTRA_CC", 
+            "obs": "A String[] holding e-mail addresses that should be carbon copied.", 
+            "type": "String []", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.TEXT", 
+            "extra_name": "EXTRA_TEXT_MULTIPLE", 
+            "obs": "", 
+            "type": "CharSequence-ArrayList", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 16, 
+            "constant_value": "android.intent.extra.HTML_TEXT", 
+            "extra_name": "EXTRA_HTML_TEXT_MULTIPLE", 
+            "obs": "A constant String that is associated with the Intent, used with ACTION_SEND to supply an alternative to EXTRA_TEXT as HTML formatted text. Note that you must also supply EXTRA_TEXT.", 
+            "type": "String-ArrayList", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.SUBJECT", 
+            "extra_name": "EXTRA_SUBJECT_MULTIPLE", 
+            "obs": "A constant string holding the desired subject line of a message.", 
+            "type": "String-ArrayList", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 1, 
+            "constant_value": "android.intent.extra.EMAIL", 
+            "extra_name": "EXTRA_EMAIL_MULTIPLE", 
+            "obs": "A String[] holding e-mail addresses that should be delivered to.", 
+            "type": "String []-ArrayList", 
+            "type_aggr": ""
+        }, 
+        {
+            "api_level": 26, 
+            "constant_value": "android.intent.extra.QUICK_VIEW_FEATURES", 
+            "extra_name": "EXTRA_QUICK_VIEW_FEATURES", 
+            "obs": "An optional extra of String[] indicating which quick view features should be made available to the user in the quick view UI while handing a Intent#ACTION_QUICK_VIEW intent.", 
+            "type": "String[]", 
+            "type_aggr": ""
+        }
+    ]
+}

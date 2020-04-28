@@ -1,0 +1,28 @@
+*.iml
+.gradle
+.idea
+/local.properties
+/.idea/caches/build_file_checksums.ser
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# intermediate files
+*pyc
+
+# temporal files
+/app-market-study/tmp
+
+# python virtualenv 
+/app-market-study/lib
+/app-market-study/include
+/app-market-study/share
+/app-market-study/pip-selfcheck.json
+/app-market-study/bin
+
+# testing
+/testing

@@ -1,0 +1,259 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [androidx.wear:wear:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/wear-1.0.0.aar/0a049431682c051ec04a4134bbf000fb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/preference-1.1.0.aar/3042cfef35be55f0fdff0c556ec5bef5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/111e5c964860249e4790f0553e1c7a03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/0fe16a73c688f052dccb26eed772b24b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/209abecd07b7f26560c3644a7c2daa69/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/7a5b7a434bcc682076fc392867c54c77/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.support:wearable:2.4.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-wearable-2.4.0.aar/94d46378374cf6ec0f9eb85e945f308c/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-wearable-16.0.1.aar/0bab6508190ef1fa831441982d014fba/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3f3d08735606e44775cbd29d5beb648b/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/22c9b301bee0bffba0c932da9be11cfe/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/0984d0b558fcae35652216fe14481a15/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/f4b77152960d8397e43d609f01584a80/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/media-1.0.1.aar/c5004def7214234cdf6b1a20d0754d3a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/percentlayout-1.0.0.aar/a93408764d2211025c8255a293aff402/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/ce33067a4fe1d8f4be2212de45c394ac/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/05483c4134757aa67b2964221421a5fd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/75c1adb5d58cd84d8365d95f1840acf7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/d8c44d2842580a59a0796f6d6d78e975/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/a902b7fc0b0efa4c9d4beb343325ce82/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/cc6b5e3813facb7a333d559ceece8f6b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/38ff8adc932f32d1d6ce415f587a8595/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/71b9df952131143eea2963ed459ebc24/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b3fcdfefdb358e4dc839ae6b4ebc1c5d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/d5997d0fd72fd06de79a6ffca15d80e4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/a4a5bd9efac8469699fdad3f2fd7b754/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/60639d35ecf8b006fc13beee34576c05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/4d0b68a4dd0ba15e54db2a8268cc5ffe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/28106e3d8971f36cf3001fd825545fe4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/edc8e6a1083a4568963e8a3cbce47b8c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/bd02ebba22359df6d60522d2f69158d7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/929bfadf86a0b06cba750cd08ef32b9a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d34ca47632c4caa387e9b48745bf66e8/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/f5018dc791a64c2e13e292885f9537af/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/300136f64a315de64424a1f65b69e6a6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/cedb97c323811ef4e98064078fe0d2df/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/40a111854f05ae2f6608beb6a5d773f3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/f4ece289ad2355e0c90678f3fa0be327/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/ac291829db990e606093c755d9e4f984/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/0be00d57ca70b5b0f28684983757dcf6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/f49cada3cabb18c6a20ca8d411527628/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/b19fbf97c0ec5d22f6f4068f250553c7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/5113cc2899819466d45ce21168c1ddde/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/16796bf0461f7346cc66238a7d201441/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/3fb1b4331dc0fd33b591276d48fa6668/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+		INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.type.watch
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:5:5-64
+	android:name
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:5:19-61
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:7:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:8:5-73
+	android:name
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:8:22-70
+application
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:10:5-32:19
+MERGED from [com.google.android.material:material:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/111e5c964860249e4790f0553e1c7a03/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/111e5c964860249e4790f0553e1c7a03/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.support:wearable:2.4.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-wearable-2.4.0.aar/94d46378374cf6ec0f9eb85e945f308c/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.support:wearable:2.4.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-wearable-2.4.0.aar/94d46378374cf6ec0f9eb85e945f308c/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-wearable-16.0.1.aar/0bab6508190ef1fa831441982d014fba/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-wearable-16.0.1.aar/0bab6508190ef1fa831441982d014fba/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3f3d08735606e44775cbd29d5beb648b/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3f3d08735606e44775cbd29d5beb648b/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/22c9b301bee0bffba0c932da9be11cfe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/22c9b301bee0bffba0c932da9be11cfe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/0984d0b558fcae35652216fe14481a15/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/0984d0b558fcae35652216fe14481a15/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/ce33067a4fe1d8f4be2212de45c394ac/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/ce33067a4fe1d8f4be2212de45c394ac/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d34ca47632c4caa387e9b48745bf66e8/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d34ca47632c4caa387e9b48745bf66e8/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/ac291829db990e606093c755d9e4f984/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/ac291829db990e606093c755d9e4f984/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d34ca47632c4caa387e9b48745bf66e8/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:11:9-35
+meta-data#com.google.android.wearable.standalone
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:16:9-18:36
+	android:value
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:18:13-33
+	android:name
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:17:13-66
+uses-library#com.google.android.wearable
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:20:9-22:40
+MERGED from [com.google.android.support:wearable:2.4.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-wearable-2.4.0.aar/94d46378374cf6ec0f9eb85e945f308c/AndroidManifest.xml:10:9-12:40
+MERGED from [com.google.android.support:wearable:2.4.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-wearable-2.4.0.aar/94d46378374cf6ec0f9eb85e945f308c/AndroidManifest.xml:10:9-12:40
+	android:required
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:21:13-55
+activity#com.example.android.wearable.speaker.MainActivity
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:24:9-31:20
+	android:label
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:25:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+MERGED from [androidx.wear:wear:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/wear-1.0.0.aar/0a049431682c051ec04a4134bbf000fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/wear-1.0.0.aar/0a049431682c051ec04a4134bbf000fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/preference-1.1.0.aar/3042cfef35be55f0fdff0c556ec5bef5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/preference-1.1.0.aar/3042cfef35be55f0fdff0c556ec5bef5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/111e5c964860249e4790f0553e1c7a03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/111e5c964860249e4790f0553e1c7a03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/0fe16a73c688f052dccb26eed772b24b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/0fe16a73c688f052dccb26eed772b24b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/209abecd07b7f26560c3644a7c2daa69/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/209abecd07b7f26560c3644a7c2daa69/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/7a5b7a434bcc682076fc392867c54c77/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/7a5b7a434bcc682076fc392867c54c77/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.support:wearable:2.4.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-wearable-2.4.0.aar/94d46378374cf6ec0f9eb85e945f308c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.support:wearable:2.4.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-wearable-2.4.0.aar/94d46378374cf6ec0f9eb85e945f308c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-wearable-16.0.1.aar/0bab6508190ef1fa831441982d014fba/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-wearable-16.0.1.aar/0bab6508190ef1fa831441982d014fba/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3f3d08735606e44775cbd29d5beb648b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3f3d08735606e44775cbd29d5beb648b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/22c9b301bee0bffba0c932da9be11cfe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/22c9b301bee0bffba0c932da9be11cfe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/0984d0b558fcae35652216fe14481a15/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/0984d0b558fcae35652216fe14481a15/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/f4b77152960d8397e43d609f01584a80/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/f4b77152960d8397e43d609f01584a80/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/media-1.0.1.aar/c5004def7214234cdf6b1a20d0754d3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/media-1.0.1.aar/c5004def7214234cdf6b1a20d0754d3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/percentlayout-1.0.0.aar/a93408764d2211025c8255a293aff402/AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/percentlayout-1.0.0.aar/a93408764d2211025c8255a293aff402/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/ce33067a4fe1d8f4be2212de45c394ac/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/ce33067a4fe1d8f4be2212de45c394ac/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/05483c4134757aa67b2964221421a5fd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/05483c4134757aa67b2964221421a5fd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/75c1adb5d58cd84d8365d95f1840acf7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/75c1adb5d58cd84d8365d95f1840acf7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/d8c44d2842580a59a0796f6d6d78e975/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/d8c44d2842580a59a0796f6d6d78e975/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/a902b7fc0b0efa4c9d4beb343325ce82/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/a902b7fc0b0efa4c9d4beb343325ce82/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/cc6b5e3813facb7a333d559ceece8f6b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/cc6b5e3813facb7a333d559ceece8f6b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/38ff8adc932f32d1d6ce415f587a8595/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/38ff8adc932f32d1d6ce415f587a8595/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/71b9df952131143eea2963ed459ebc24/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/71b9df952131143eea2963ed459ebc24/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b3fcdfefdb358e4dc839ae6b4ebc1c5d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b3fcdfefdb358e4dc839ae6b4ebc1c5d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/d5997d0fd72fd06de79a6ffca15d80e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/d5997d0fd72fd06de79a6ffca15d80e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/a4a5bd9efac8469699fdad3f2fd7b754/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/a4a5bd9efac8469699fdad3f2fd7b754/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/60639d35ecf8b006fc13beee34576c05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/60639d35ecf8b006fc13beee34576c05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/4d0b68a4dd0ba15e54db2a8268cc5ffe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/4d0b68a4dd0ba15e54db2a8268cc5ffe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/28106e3d8971f36cf3001fd825545fe4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/28106e3d8971f36cf3001fd825545fe4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/edc8e6a1083a4568963e8a3cbce47b8c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/edc8e6a1083a4568963e8a3cbce47b8c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/bd02ebba22359df6d60522d2f69158d7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/bd02ebba22359df6d60522d2f69158d7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/929bfadf86a0b06cba750cd08ef32b9a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/929bfadf86a0b06cba750cd08ef32b9a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d34ca47632c4caa387e9b48745bf66e8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d34ca47632c4caa387e9b48745bf66e8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/f5018dc791a64c2e13e292885f9537af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/f5018dc791a64c2e13e292885f9537af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/300136f64a315de64424a1f65b69e6a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/300136f64a315de64424a1f65b69e6a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/cedb97c323811ef4e98064078fe0d2df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/cedb97c323811ef4e98064078fe0d2df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/40a111854f05ae2f6608beb6a5d773f3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/40a111854f05ae2f6608beb6a5d773f3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/f4ece289ad2355e0c90678f3fa0be327/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/f4ece289ad2355e0c90678f3fa0be327/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/ac291829db990e606093c755d9e4f984/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/ac291829db990e606093c755d9e4f984/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/0be00d57ca70b5b0f28684983757dcf6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/0be00d57ca70b5b0f28684983757dcf6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/f49cada3cabb18c6a20ca8d411527628/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/f49cada3cabb18c6a20ca8d411527628/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/b19fbf97c0ec5d22f6f4068f250553c7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/b19fbf97c0ec5d22f6f4068f250553c7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/5113cc2899819466d45ce21168c1ddde/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/5113cc2899819466d45ce21168c1ddde/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/16796bf0461f7346cc66238a7d201441/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/16796bf0461f7346cc66238a7d201441/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/3fb1b4331dc0fd33b591276d48fa6668/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/3fb1b4331dc0fd33b591276d48fa6668/AndroidManifest.xml:20:5-44
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+		INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+		ADDED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+		INJECTED from /home/ebarsallo/Code/purdue.edu/699-research/ewok-labs/ua-test/wear/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3f3d08735606e44775cbd29d5beb648b/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3f3d08735606e44775cbd29d5beb648b/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3f3d08735606e44775cbd29d5beb648b/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3f3d08735606e44775cbd29d5beb648b/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/0984d0b558fcae35652216fe14481a15/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/0984d0b558fcae35652216fe14481a15/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/ebarsallo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/0984d0b558fcae35652216fe14481a15/AndroidManifest.xml:24:13-58

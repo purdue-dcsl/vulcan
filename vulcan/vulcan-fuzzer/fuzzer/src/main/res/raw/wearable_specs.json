@@ -1,0 +1,366 @@
+{
+    "action": [
+        {
+            "action_name": "vnd.google.fitness.TRACK",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "vnd.google.fitness.TRACK",
+            "mime_type": "vnd.google.fitness.activity/biking",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        },
+        {
+            "action_name": "vnd.google.fitness.TRACK",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "vnd.google.fitness.TRACK",
+            "mime_type": "vnd.google.fitness.activity/running",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        },
+        {
+            "action_name": "vnd.google.fitness.TRACK",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "vnd.google.fitness.TRACK",
+            "mime_type": "vnd.google.fitness.activity/other",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        },
+        {
+            "action_name": "vnd.google.fitness.VIEW",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "vnd.google.fitness.TRACK",
+            "mime_type": "vnd.google.fitness.data_type/com.google.heart_rate.bpm",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        },
+        {
+            "action_name": "vnd.google.fitness.VIEW",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "vnd.google.fitness.TRACK",
+            "mime_type": "vnd.google.fitness.data_type/com.google.step_count.cumulative",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        },
+        {
+            "action_name": "ACTION_SEND",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "com.google.android.voicesearch.SELF_NOTE",
+            "constant_value": "android.intent.action.SEND",
+            "mime_type": "",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": false
+        },
+        {
+            "action_name": "android.intent.action.SET_ALARM",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "android.intent.action.SET_ALARM",
+            "mime_type": "",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        },
+        {
+            "action_name": "android.intent.action.SET_TIMER",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "android.intent.action.SET_TIMER",
+            "mime_type": "",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        },
+        {
+            "action_name": "vnd.google.android.gms.fitness.COMPUTE_DATA",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "vnd.google.android.gms.fitness.COMPUTE_DATA",
+            "mime_type": "",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        },
+        {
+            "action_name": "com.google.android.gms.actions.RESERVE_TAXI_RESERVATION",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "com.google.android.gms.actions.RESERVE_TAXI_RESERVATION",
+            "mime_type": "",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        },
+        {
+            "action_name": "com.google.android.wearable.action.STOPWATCH",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "com.google.android.wearable.action.STOPWATCH",
+            "mime_type": "",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        },
+        {
+            "action_name": "vnd.google.fitness.VIEW_GOAL",
+            "activity": false,
+            "api_level": 1,
+            "broadcast": true,
+            "category": "",
+            "constant_value": "vnd.google.fitness.VIEW_GOAL",
+            "mime_type": "",
+            "obs": "unknown",
+            "permission": [],
+            "permission_level": "",
+            "protected": false,
+            "wearable_specific": true
+        }
+
+    ],
+    "action_extra": [
+        {
+            "action_name": "vnd.google.fitness.TRACK",
+            "extra_name": "EXTRA_STATUS",
+            "optional": false
+        },
+        {
+            "action_name": "vnd.google.fitness.VIEW",
+            "extra_name": "vnd.google.fitness.start_time",
+            "optional": false
+        },
+        {
+            "action_name": "vnd.google.fitness.VIEW",
+            "extra_name": "vnd.google.fitness.end_time",
+            "optional": false
+        },
+        {
+            "action_name": "vnd.google.fitness.VIEW",
+            "extra_name": "vnd.google.fitness.data_source",
+            "optional": true
+        },
+        {
+            "action_name": "ACTION_SEND",
+            "extra_name": "android.content.Intent.EXTRA_TEXT",
+            "optional": false
+        },
+        {
+            "action_name": "android.intent.action.SET_ALARM",
+            "extra_name": "android.provider.AlarmClock.EXTRA_HOUR",
+            "optional": true
+        },
+        {
+            "action_name": "android.intent.action.SET_ALARM",
+            "extra_name": "android.provider.AlarmClock.EXTRA_MINUTES",
+            "optional": true
+        },
+        {
+            "action_name": "android.intent.action.SET_TIMER",
+            "extra_name": "android.provider.AlarmClock.EXTRA_LENGTH",
+            "optional": false
+        },
+        {
+            "action_name": "vnd.google.android.gms.fitness.COMPUTE_DATA",
+            "extra_name": "vnd.google.fitness.start_time",
+            "optional": false
+        },
+        {
+            "action_name": "vnd.google.android.gms.fitness.COMPUTE_DATA",
+            "extra_name": "vnd.google.fitness.end_time",
+            "optional": false
+        },
+        {
+            "action_name": "android.intent.action.SET_TIMER",
+            "extra_name": "android.provider.AlarmClock.EXTRA_LENGTH",
+            "optional": false
+        }
+    ],
+    "data": [
+        {
+            "action_name": "vnd.google.fitness.VIEW",
+            "obs": "",
+            "optional": true,
+            "type": "URI-data"
+        },
+        {
+            "action_name": "vnd.google.fitness.TRACK",
+            "obs": "",
+            "optional": true,
+            "type": "URI-data"
+        },
+        {
+            "action_name": "ACTION_SEND",
+            "obs": "",
+            "optional": true,
+            "type": "URI-data"
+        },
+        {
+            "action_name": "android.intent.action.SET_ALARM",
+            "obs": "",
+            "optional": true,
+            "type": "URI-data"
+        },
+        {
+            "action_name": "android.intent.action.SET_TIMER",
+            "obs": "",
+            "optional": true,
+            "type": "URI-data"
+        },
+        {
+            "action_name": "vnd.google.android.gms.fitness.COMPUTE_DATA",
+            "obs": "",
+            "optional": true,
+            "type": "URI-data"
+        },
+        {
+            "action_name": "com.google.android.gms.actions.RESERVE_TAXI_RESERVATION",
+            "obs": "",
+            "optional": true,
+            "type": "URI-data"
+        },
+        {
+            "action_name": "com.google.android.wearable.action.STOPWATCH",
+            "obs": "",
+            "optional": true,
+            "type": "URI-data"
+        },
+        {
+            "action_name": "vnd.google.fitness.VIEW_GOAL",
+            "obs": "",
+            "optional": true,
+            "type": "URI-data"
+        }
+    ],
+    "extra_field": [
+        {
+            "api_level": 24,
+            "constant_value": "actionStatus",
+            "extra_name": "EXTRA_STATUS",
+            "obs": "none",
+            "type": "String",
+            "type_aggr": ""
+        },
+        {
+            "api_level": 24,
+            "constant_value": "vnd.google.fitness.start_time",
+            "extra_name": "vnd.google.fitness.start_time",
+            "obs": "none",
+            "type": "int",
+            "type_aggr": ""
+        },
+        {
+            "api_level": 24,
+            "constant_value": "vnd.google.fitness.end_time",
+            "extra_name": "vnd.google.fitness.end_time",
+            "obs": "none",
+            "type": "int",
+            "type_aggr": ""
+        },
+        {
+            "api_level": 24,
+            "constant_value": "vnd.google.fitness.data_source",
+            "extra_name": "vnd.google.fitness.data_source",
+            "obs": "none",
+            "type": "String",
+            "type_aggr": ""
+        },
+        {
+            "api_level": 24,
+            "constant_value": "android.content.Intent.EXTRA_TEXT",
+            "extra_name": "android.content.Intent.EXTRA_TEXT",
+            "obs": "none",
+            "type": "String",
+            "type_aggr": ""
+        },
+        {
+            "api_level": 24,
+            "constant_value": "android.provider.AlarmClock.EXTRA_HOUR",
+            "extra_name": "android.provider.AlarmClock.EXTRA_HOUR",
+            "obs": "none",
+            "type": "int",
+            "type_aggr": ""
+        },
+        {
+            "api_level": 24,
+            "constant_value": "android.provider.AlarmClock.EXTRA_MINUTES",
+            "extra_name": "android.provider.AlarmClock.EXTRA_MINUTES",
+            "obs": "none",
+            "type": "int",
+            "type_aggr": ""
+        },
+        {
+            "api_level": 24,
+            "constant_value": "android.provider.AlarmClock.EXTRA_LENGTH",
+            "extra_name": "android.provider.AlarmClock.EXTRA_LENGTH",
+            "obs": "none",
+            "type": "int",
+            "type_aggr": ""
+        },
+        {
+            "api_level": 24,
+            "constant_value": "android.content.Intent.EXTRA_TEXT",
+            "extra_name": "android.content.Intent.EXTRA_TEXT",
+            "obs": "none",
+            "type": "String",
+            "type_aggr": ""
+        }
+    ],
+    "extra_default_values": {
+        "EXTRA_STATUS": [
+            "ActiveActionStatus",
+            "CompletedActionStatus"
+        ]
+    }
+}
